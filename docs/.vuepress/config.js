@@ -2,9 +2,15 @@
 module.exports = {
   title: "学习笔记",
   description: "一点学习过程中的笔记，随便看看XD",
+
   markdown: {
     lineNumbers: true,
   },
+  base: '/myblogs/',
+  locales: {
+        '/': {
+          lang: 'zh-CN'
+        }},
   themeConfig: {
     sidebar: [
       {
