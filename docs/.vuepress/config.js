@@ -6,7 +6,7 @@ module.exports = {
   markdown: {
     lineNumbers: true,
   },
-  base: '/myblogs/',
+  base: '/myblog/',
   locales: {
         '/': {
           lang: 'zh-CN'
